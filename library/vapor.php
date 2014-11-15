@@ -132,7 +132,7 @@ function vapor_scripts_and_styles() {
 		wp_register_script( 'vapor-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
 		// register google fonts
-		wp_register_style( 'vapor-google-fonts', 'fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic', array(), '', 'all' );
+		wp_register_style( 'vapor-google-fonts', '//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic', array(), '', 'all' );
 
 		// register Bootstrap
 		wp_register_style( 'vapor-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', array(), '', 'all' );
