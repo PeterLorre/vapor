@@ -84,6 +84,7 @@ a, a:visited {
 	/* on hover */
 	&:hover, &:focus {
 		color: $link-hover;
+		background: none;
 	}
 
 	/* on click */
@@ -194,7 +195,7 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-
+				background: none;
 			}
 		}
 
