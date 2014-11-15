@@ -28,7 +28,7 @@ function vapor_ahoy() {
   load_theme_textdomain( 'vaportheme', get_template_directory() . '/library/translation' );
 
   // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-  require_once( 'library/custom-post-type.php' );
+  //require_once( 'library/custom-post-type.php' );
 
   // launching operation cleanup
   add_action( 'init', 'vapor_head_cleanup' );
