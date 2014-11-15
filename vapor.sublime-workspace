@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background: "
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"ligh",
+				"light-gray"
+			],
+			[
+				"tran",
+				"transition	Bourbon"
+			],
+			[
+				"dark",
+				"dark-gray"
+			],
+			[
+				"lig",
+				"light-gray"
+			],
+			[
+				"background",
+				"background-position: "
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/wp-vapor/wp-content/themes/vapor"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/wp-vapor/wp-content/themes/bones-master/CHANGELOG.md",
+		"/C/wamp/www/wp-vapor/wp-content/themes/bones-master/readme.md",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/single.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/scss/partials/_variables.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/header.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/page.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/front-page.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/scss/breakpoints/_1030up.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/scss/breakpoints/_768up.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/scss/breakpoints/_base.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/page-about.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/includes/share-bar.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/includes/native-share.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/scss/breakpoints/_base.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/scss/partials/_mixins.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_mixins.scss",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/js/libs/modernizr.custom.min.js",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/boulder-psychic-institute.sublime-project",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/archive.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/includes/bottom-share-bar.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/includes/bottom-share-bar.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/CHANGELOG.md",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/comments.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi/library/bpi.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/breakpoints/_base.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/breakpoints/_768up.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/breakpoints/_1030up.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/breakpoints/_1240up.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/modules/_buttons.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/header.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/front-page.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_variables.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/functions.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/functions.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/js/scripts.js",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/header.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/techadvice.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/rgps.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/404.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-pricing.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-about.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-signup.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/header-404.php",
+		"/C/wamp/www/wp-rgps/wp-config.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_bootstrap.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_normalize.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-privacy.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-contact.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-templates/page-about.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/footer-page-template.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-templates/page-signup.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/page-templates/page-about.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-templates/page-privacy.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-templates/page-pricing.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/page-templates/page-contact.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/style.css",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/page-templates/page-frontpage.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_grid.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/sidebar-footer.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/widget-header.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/sidebar-header-1.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/sidebar-header1.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/sidebar-widget_header.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/sidebar-widgetheader.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/sidebar-colophon.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/sidebar-top.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/sidebar-home.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/footer.php",
+		"/C/wamp/www/wp-rgps/assets/child theme php/home.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/index.php",
+		"/E/Design/Reputation GPS/rgps-info.txt",
+		"/E/Design/Reputation GPS/Website/assets/child theme php/style.css",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_typography.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/partials/_mixins.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/modules/_forms.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/partials/_ie_grid.scss",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/css/style.css",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/scss/style.scss",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/modules/_forms.scss",
+		"/E/Design/Reputation GPS/Website/assets/child theme php/header.php",
+		"/E/Design/Reputation GPS/Website/assets/child theme php/sidebar-top.php",
+		"/E/Design/Reputation GPS/Website/assets/child theme php/home.php",
+		"/C/wamp/www/wp-rgps/wp-content/themes/rgps/library/scss/editor-style.scss",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/partials/_typography.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/editor-style.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/style.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/partials/_variables.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/breakpoints/_768up.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/breakpoints/_base.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/breakpoints/_1030up.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/header.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/front-page.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/sidebar.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/functions.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/skateland.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/partials/_grid.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/breakpoints/_1240up.scss",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/library/scss/partials/_mixins.scss",
+		"/C/Users/drums_000/Desktop/this.txt",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi_/index.php",
+		"/C/wamp/www/wp-vapor/wp-config.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/page.php",
+		"/C/Users/drums_000/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/drums_000/AppData/Roaming/Sublime Text 3/Packages/Syntax Highlighting for Sass/README.md",
+		"/C/Users/drums_000/AppData/Roaming/Sublime Text 3/Packages/Syntax Highlighting for Sass/messages/install.txt",
+		"/C/wamp/www/wp-skateland/wp-config.php",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/config.rb",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/scss/admin.scss",
+		"/C/wamp/www/wp-skateland/wp-content/themes/skateland/library/css/style.css",
+		"/C/Users/drums_000/Desktop/skateland/.gitattributes",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi_/front-page.php",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi_/.gitignore",
+		"/C/wamp/www/wp-psychic/wp-content/themes/bpi_/.gitattributes",
+		"/C/wamp/www/wp-vapor/wp-content/themes/bones-master/front-page.php",
+		"/C/wamp/www/wp-genesis/wp-content/themes/genesis/page.php",
+		"/C/wamp/www/wp-psychic/wp-config.php",
+		"/C/wamp/www/wp-genesis/wp-config.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/page-templates/page-careers.php",
+		"/C/wamp/www/wp-techadvice/wp-content/themes/TechAdvice/single-products.php",
+		"/C/wamp/www/wp-uc/wp-config.php",
+		"/C/wamp/www/wp-uc/wp-content/themes/united-confusion/page-home.php",
+		"/C/wamp/www/wp-uc/wp-content/themes/united-confusion/footer-home.php",
+		"/C/wamp/www/wp-uc/wp-content/themes/united-confusion/functions.php",
+		"/E/alien backup/projects/wp-techadvice/wp-content/themes/TechAdvice/page-templates/page-careers.php",
+		"/C/wamp/www/wp-techadvice/wp-config.php",
+		"/C/wamp/www/wp-crunge/wp-config.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"B85D1A",
+			"wrap",
+			"nav",
+			"Technology_Adv",
+			"meta",
+			"name",
+			"bs",
+			"lato",
+			".wrap",
+			"contain",
+			"articl",
+			".nav",
+			"nav",
+			"  // font-weight: 700;",
+			"cta",
+			"logo",
+			"login",
+			"footer-w",
+			";\n",
+			"menu-login",
+			"socia",
+			"social",
+			"padding: 0 1em;",
+			"social",
+			"rounded",
+			"			// @include rounded(4px);",
+			"social",
+			"widgets",
+			";\n",
+			"menu-lo",
+			".header",
+			".footer",
+			"footer-wi",
+			"main-nav",
+			"main",
+			"navbar-toggle",
+			"menu",
+			"footer-wid",
+			"ERROR",
+			"A:HOVER",
+			".footer",
+			"tr",
+			"error",
+			"lang",
+			"{\n",
+			";\n",
+			"maxcdn",
+			"blockq",
+			"blo",
+			"	.footer{\n		.guarantee, .logo-footer{\n			display: none;\n		}\n	}",
+			"{\n",
+			"works",
+			"how-it",
+			"transi",
+			"primar",
+			"primary",
+			".footer",
+			"copyri",
+			".footer",
+			"margin: 2.2em 0;",
+			".widget",
+			"sidebar",
+			"blockquote",
+			"box",
+			"800",
+			"footer",
+			"%;\n",
+			"selection",
+			"lato",
+			"gradi",
+			"lato",
+			"font-family",
+			".hentry",
+			"article",
+			";\n",
+			"nav",
+			"wp_nav_menu",
+			"Main",
+			"primary",
+			"google"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "vapor.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"mix",
+				"library\\scss\\partials\\_mixins.scss"
+			],
+			[
+				"bas",
+				"library\\scss\\breakpoints\\_base.scss"
+			],
+			[
+				"pa",
+				"page-about.php"
+			],
+			[
+				"na",
+				"library\\includes\\native-share.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"he",
+				"header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
