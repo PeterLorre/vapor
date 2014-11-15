@@ -19,9 +19,13 @@ body {
 	font-family: $libre;
 	font-size: 100%;
 	line-height: 1.5;
-	color: $text-color;
-	background-color: $gray;
+	color: $blue;
+	background: #222;
+	// border-left: 15px solid $blue;
+	// border-right: 15px solid $blue;
   -webkit-font-smoothing: antialiased;
+  // border-radius: 20%;
+  @include transition(all .5s ease-in-out);
 }
 
 /********************
@@ -153,16 +157,20 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background: $green;
 }
 
-	#logo {
-		margin: 0.75em 0;
-
-		a {
-			color: $white;
+	.logo {
+		// margin: 0.75em 0;
+		display: block;
+		text-indent: -9999px;
+		font-size: 0px;
+		img{
+			display: block;
+			background: $blue;
 		}
 	}
+
 
 /*********************
 NAVIGATION STYLES
@@ -256,19 +264,19 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
+			// background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
+			// border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $light-gray;
+				// border-bottom: 1px solid $light-gray;
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+				// border-top: 1px solid $light-gray;
 
 				p {
 					margin: 0;
@@ -570,7 +578,7 @@ COMMENT STYLES
 #comments-title {
 	padding: 0.75em;
 	margin: 0;
-	border-top: 1px solid $light-gray;
+	// border-top: 1px solid $light-gray;
 
 	/* number of comments span */
 	span {}

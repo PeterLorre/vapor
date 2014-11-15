@@ -17,7 +17,10 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
-body {}
+body {
+	// border-right-color: $red;
+	// border-left-color: $red;
+}
 
 /*********************
 LAYOUT & GRID STYLES
@@ -31,9 +34,14 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+}
 
-	#logo {}
+	.logo {
+		img{
+			background: $blue;
+		}
+	}
 
 /*********************
 NAVIGATION STYLES

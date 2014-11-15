@@ -269,6 +269,10 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
+.logo img {
+  background: #2980b9;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -279,7 +283,7 @@ NAVIGATION STYLES
   /* end current highlighters */
 }
 .nav ul {
-  background: #323944;
+  background: black;
   margin-top: 0;
 }
 .nav li {

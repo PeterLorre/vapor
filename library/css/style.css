@@ -1365,9 +1365,11 @@ body {
   font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  background-color: #eaedf2;
+  color: #2980b9;
+  background: #222;
   -webkit-font-smoothing: antialiased;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 /********************
@@ -1486,14 +1488,17 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944;
+  background: #8fe55c;
 }
 
-#logo {
-  margin: 0.75em 0;
+.logo {
+  display: block;
+  text-indent: -9999px;
+  font-size: 0px;
 }
-#logo a {
-  color: white;
+.logo img {
+  display: block;
+  background: #2980b9;
 }
 
 /*********************
@@ -1551,18 +1556,14 @@ POSTS & CONTENT STYLES
 }
 
 .hentry {
-  background-color: white;
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #cccccc;
 }
 .hentry header {
-  border-bottom: 1px solid #f8f9fa;
   padding: 1.5em;
 }
 .hentry footer {
   padding: 1.5em;
-  border-top: 1px solid #f8f9fa;
 }
 .hentry footer p {
   margin: 0;
@@ -1664,7 +1665,7 @@ POSTS & CONTENT STYLES
   height: auto;
 }
 .entry-content pre {
-  background: #323944;
+  background: black;
   color: #f8f9fa;
   font-size: 0.9em;
   padding: 1.5em;
@@ -1767,7 +1768,6 @@ COMMENT STYLES
 #comments-title {
   padding: 0.75em;
   margin: 0;
-  border-top: 1px solid #f8f9fa;
   /* number of comments span */
 }
 
@@ -1941,7 +1941,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: black;
   color: #f8f9fa;
 }
 
@@ -2076,6 +2076,10 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  .logo img {
+    background: #2980b9;
+  }
+
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2086,7 +2090,7 @@ you can add resource intensive styles.
     /* end current highlighters */
   }
   .nav ul {
-    background: #323944;
+    background: black;
     margin-top: 0;
   }
   .nav li {
