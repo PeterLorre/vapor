@@ -129,15 +129,6 @@ function vapor_scripts_and_styles() {
 		// modernizr (without media query polyfill)
 		wp_register_script( 'vapor-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
-		// register google fonts
-		wp_register_style( 'vapor-google-fonts', '//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic', array(), '', 'all' );
-
-		// register Bootstrap
-		wp_register_style( 'vapor-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', array(), '', 'all' );
-
-		// register Font Awesome
-		wp_register_style( 'vapor-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css', array(), '', 'all' );
-
 		// register main stylesheet
 		wp_register_style( 'vapor-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 
@@ -148,17 +139,12 @@ function vapor_scripts_and_styles() {
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
 		  wp_enqueue_script( 'comment-reply' );
     }
-		//adding bootsrap js to footer
-		wp_register_script( 'vapor-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js', array( 'jquery' ), '', true );
 
 		//adding scripts file in the footer
 		wp_register_script( 'vapor-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
 		wp_enqueue_script( 'vapor-modernizr' );
-		wp_enqueue_style( 'vapor-google-fonts' );
-		wp_enqueue_style( 'vapor-bootstrap' );
-		wp_enqueue_style( 'vapor-fontawesome' );
 		wp_enqueue_style( 'vapor-stylesheet' );
 		wp_enqueue_style( 'vapor-ie-only' );
 
@@ -170,7 +156,6 @@ function vapor_scripts_and_styles() {
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'vapor-bootsrap' );
 		wp_enqueue_script( 'vapor-js' );
 
 	}

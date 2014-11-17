@@ -243,6 +243,26 @@ function rgps_execute_php($html){
     return $html;
 }
 
+/* google fonts */
+function vapor_fonts() {
+  wp_enqueue_style('googleFonts', '//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic');
+}
+add_action('wp_enqueue_scripts', 'vapor_fonts');
+
+/*enqueueing styles and scripts */
+function vapor_scripts() {
+
+  // bootstrap css + js
+  wp_enqueue_style( 'style-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', array(), '', 'all' );
+  wp_enqueue_script( 'script-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js', array( 'jquery' ), '', true );
+  wp_enqueue_script('script-parallax', get_stylesheet_directory_uri() . '/library/js/parallax.js', array( 'jquery' ), '', true );
+
+  // font awesome
+  wp_enqueue_style( 'style-fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css', array(), '', 'all' );
+
+}
+add_action('wp_enqueue_scripts', 'vapor_scripts');
+
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
